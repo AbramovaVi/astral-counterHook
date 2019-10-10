@@ -4,5 +4,6 @@ import { render } from 'react-dom';
 import '../styles/index';
 
 import App from './components/App';
+import Counter from './components/Counter';
 
-render(<App />, document.getElementById('root'));
+render(<Counter />, document.getElementById('root'));
